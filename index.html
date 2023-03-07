@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav" class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobremi">Sobre mí</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#resumen">Resumen</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+                <div class="logo">
+                    V<span class="color">P</span>
+                </div>
+            </header>
+            <div class="info">
+                <h1>VICENT PRICE</h1>
+                <h2>Blockchain Developer | Tech Leader | JavaScript, NodeJS, Solidity, Rust</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="foto">
+                <img src="https://randomuser.me/api/portraits/men/30.jpg">>" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Sobre Mi</h2>
+            <h3>Detalles personales</h3>
+
+            <p class="especial">✋ Hola! Soy Vicent. Estoy trabajando como líder desde hace 8 años. 
+                Previamente trabajé como desarrollador 4 años. 
+                Unos años atras redescubrí mi pasión por las nuevas tecnologías, 
+                a partir de eso estoy buscando iniciarme como desarrollador blockchain🚀</p>
+            </p>
+            <p> </p>
+
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="titulo-detalle">Perfil</span>
+                    <p>⭐️Soy analista programador genexus certificado. Actualmente lidero un equipo de desarrollo.</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-location-pin"></i>
+                    <span class="titulo-detalle">Ubicación</span>
+                    <p>⭐️Ramos Mejía, Buenos Aires, Argentina.</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-flag"></i>
+                    <span class="titulo-detalle">Intereses</span>
+                    <p>⭐️Estoy buscando colaborar en proyectos con tecnología blockchain como desarrollador.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis habilidades</h2>
+            <h3>Me especializo en</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <span>HTML/CSS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="html"> </div>
+                        <span>98%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>JAVASCRIPT</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="javascript"></div>
+                        <span>98%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>NODE.JS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="nodejs"></div>
+                        <span>90%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>SOLIDITY</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="solidity"></div>
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>RUST</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="rust"></div>
+                        <span>95%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>BLOCKCHAIN</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="blockchain"></div>
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION RESUMEN -->
+    <section class="resumen" id="resumen">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Resumen</h2>
+            <h3>Mi preparación y experiencia</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Educación</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2021 Octubre - Diciembre</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Titulación: Ethereum Developer Certificate
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Etherium Developer, blockchain</h4>
+                                <p>ChainShot</p>
+                                <span class="promedio">8.9 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2021 Mayo - Agosto </h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Titulación: Bootcamp de Full Stack Developer en JavaScript, NodeJS. Bootcamp de Full Stack Developer en JavaScript, NodeJS.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Full Stack Developer, JavaScript, NodeJs, React.</h4>
+                                <p>HENRY</p>
+                                <span class="promedio">8.5 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Experiencia Laboral</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>1 año 4 meses</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                             Developed and tested two smart contracts for Boumer, a fan base token platform. The first was based on the ERC1155 standard, with custom modifications, and managed fan tokens. The second was a custom-built market offering direct sales and auctions, with payments accepted in Ether and incorporating the ERC1155Holder, Ownable, and ReentrancyGuard smart contracts.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Solidity Developer</h4>
+                                <p>Programador Independiente</p>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>12 Años 9 Meses</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Seguimiento, gestión de proyectos, análisis de requerimientos, estimaciones. Equipo de 4 personas.
+                                Desarrollo de Software con Gx 7,5 RPG/AS400. Gx Ev1 .Net/Sql server. Analisis de requerimientos. Consultorìa
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Valkimia</h4>
+                                <p>Tech Leader</p>
+                                <p>Programador Genexus</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3>¡Contactame ahora mismo!</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i> Teléfono
+                    </h2>
+                    <span class="info-contacto">(54) 11-9906-4748</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> Correo
+                    </h2>
+                    <span class="info-contacto">vpprogrammmer@gmail.com</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-globe"></i> Página Web
+                    </h2>
+                    <span class="info-contacto">www.vpprogrammer.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
